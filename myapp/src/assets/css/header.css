@@ -1,0 +1,20 @@
+
+ul {
+  width: 100%;
+  height: auto;
+  background-color: bisque;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  font-size: 35px;
+  padding: 40px;
+}
+
+ul li:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
