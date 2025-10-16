@@ -1,0 +1,65 @@
+/* Container form styling */
+form {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Focus effect on inputs */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #4caf50;
+  box-shadow: 0px 0px 6px rgba(76, 175, 80, 0.4);
+}
+
+/* Submit button */
+form input[type="submit"] {
+  width: 100%;
+  background: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background: #45a049;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Key-Value pair display */
+p {
+  text-align: center;
+  font-size: 16px;
+  margin: 6px 0;
+  color: #555;
+}

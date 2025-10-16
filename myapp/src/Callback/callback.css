@@ -1,0 +1,21 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.box p{
+    color: white;
+    font-size: 50px;
+}
+.box button{
+    font-size: 35px;
+    padding: 7px 20px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}

@@ -1,0 +1,61 @@
+.form-box {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.form-box h1 {
+  color: #ffffff;
+}
+
+.form-box form .input-box {
+  width: 500px;
+  height: auto;
+  padding: 70px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.form-box form .input-box input {
+  width: 400px;
+  font-size: 18px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  background-color: royalblue;
+  color: white;
+}
+/* pseudo selector using double colon (::) */
+
+.form-box form .input-box input::placeholder {
+  color: white;
+}
+
+/* attribute selector */
+
+.form-box form .input-box input[type="submit"] {
+  width: 150px;
+  background-color: royalblue;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-box .user-data {
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+}
